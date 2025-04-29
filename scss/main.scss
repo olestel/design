@@ -1,0 +1,23 @@
+// Main SCSS file that imports all other files
+
+// Variables
+@use 'variables/colors' as *;
+@use 'variables/typography' as *;
+@use 'variables/spacing' as *;
+
+// Utils
+@use 'utils/mixins' as *;
+
+// Base styles
+@use 'base/reset';
+@use 'base/typography';
+
+// Layout
+@use 'layout/grid';
+
+// Components
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/cards';
+
+// Add any additional component imports here
