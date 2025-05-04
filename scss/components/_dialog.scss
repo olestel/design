@@ -1,0 +1,38 @@
+@use '../variables//colors' as *;
+
+.dark {
+    div[role="dialog"], div[role="alertdialog"] {
+        background: $popup-bg-dark;
+    }
+
+    .token-active {
+        background: $highlight-dark;
+        border-color: $border-color;
+    }
+
+    .top-up-token {
+        border-color: $border-color;
+
+        &:hover {
+            border-color: $border-hover-color;
+        }
+    }
+
+    .no-margin {
+        margin-top: 0 !important;
+    }
+
+    .current-plan {
+        background: $highlight-dark;
+        border-color: $border-color;
+    }
+    
+    .plan-to-choose {
+        background: $dark-bg;
+        cursor: pointer;
+    }
+
+    .bg-plan-starter-tagBg {
+        background: $badge-bg;
+    }
+}

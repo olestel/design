@@ -1,0 +1,21 @@
+@use '../variables//colors' as *;
+
+.btn-primary {
+    background: $btn-blue;
+    color: white;
+    opacity: 1;
+    &:hover {
+        background: $btn-blue;
+        opacity: 0.9;
+    }
+}
+
+.btn-red {
+    background: $btn-red;
+    color: black;
+    opacity: 1;
+    &:hover {
+        background: $btn-red;
+        opacity: 0.9;
+    }
+}
